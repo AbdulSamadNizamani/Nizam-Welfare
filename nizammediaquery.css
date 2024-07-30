@@ -1,0 +1,202 @@
+@media screen and (max-width:586px) {
+    .bottom{
+        position: relative;
+        top: 1px;
+    }
+    .img-welfare{
+        border: 1px solid black;
+    }
+}
+@media screen and (max-width:1000px) {
+     .navbar{
+        background-color: green;
+     }
+     .menubar i{
+        display: block;
+        color: #fff;
+        font-size: 10vw;
+        text-align: right;
+        margin-right: 8vw;
+     }
+     #click:checked ~ ul{
+        right: 0%;
+     }
+     #click:checked ~ .menubar i::before{
+        content: "x";
+     }
+     .nav-list{
+        position: fixed;
+        top: 10vw;
+        right: -100%;
+        display: block;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        transition: all 0.4s ease-in-out;
+     }
+    .bottom{
+        margin-bottom: 1vw;
+    }
+    .menu{
+        margin-bottom: 4px;
+    }
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 0;
+        left: 1px;
+    }
+    .donate{
+        margin-bottom: 2vw;
+    }
+    .bottom{
+        margin-bottom: 6px;
+    }
+    .img-list img{
+        width: 18vw;
+        height: 18vw;
+    }
+    .nav-list li{
+        margin-bottom: 3.4vw;
+    }
+    .nav-list li a{
+        font-size: 6vw;
+    }
+    .navbar .nav-list li:hover .menu-1 ul li{
+        width: 12vw;
+    padding: 14px;
+    }
+    .navbar .nav-list li:hover .menu-1{
+        margin-top: 55px;
+    margin-left: -55px;
+    }
+    .navbar .nav-list li:hover .menu2{
+        margin-top: 40px;
+    margin-left: -40px;
+    }
+    .navbar .nav-list li:hover .menu2 ul li{
+        width: 19vw;
+    padding: 18px;
+    }
+    .heading1{
+        font-size: 8vw;
+    }
+    h3{
+        font-size: 5vw;
+    }
+    .contact-margin2{
+        margin-top: 1vw;
+    }
+    #contactinput{
+        font-size: 5vw;
+        width: 70vw;
+    }
+    #text{
+        width: 70vw;
+        height: 60vw;
+        font-size: 5vw;
+    }
+    .bdn2{
+        font-size: 5vw;
+        margin-top: 2vh;
+    }
+    #memberdetails{
+        display: none;
+    }
+    #rubslider{
+        display: none;
+    }
+    footer {
+        height: 20vw;
+        width: 100%;
+    }
+    .footerheading{
+        font-size: 7vw;
+        margin: 0 8vw;
+    }
+    .display{
+        margin-left: 16vw;
+    }
+    .display2{
+        margin-left: 4vw;
+    }
+    .display3{
+        margin-right: 2vw;
+    }
+    .display4{
+        margin-left: 8vw;
+    }
+    .display5{
+        margin-left: 16vw;
+    }
+    .donate{
+        margin-left: 8vw;
+    }
+}
+@media screen and (max-width:700px) {
+    .menubar i{
+        font-size: 12vw;
+     }
+     .nav-list{
+        top: 12vw;
+     }
+     .img-list img{
+        width: 26vw;
+        height: 26vw;
+    }
+    .nav-list li a{
+        font-size: 10vw;
+    }
+    .heading1{
+        font-size: 10vw;
+    }
+    h3{
+        font-size: 6vw;
+    }
+    .contact-margin2{
+        margin-top: 1vw;
+    }
+    #contactinput{
+        font-size: 6vw;
+        width: 82vw;
+    }
+    #text{
+        width: 82vw;
+        font-size: 7vw;
+        height: 70vw;
+    }
+    .bdn2{
+        font-size: 7vw;
+        margin-top: 2vh;
+    }
+    footer {
+        height: 40vw;
+        width: 100%;
+    }
+    .footerheading{
+        font-size: 7vw;
+        margin: 0 10vw;
+    }
+    #getnoteheading{
+        font-size: 7vw;
+    }
+    .display{
+        margin-left: 16vw;
+    }
+    .display2{
+        margin-right: 12vw;
+    }
+    .display3{
+        margin-right: 16vw;
+    }
+    .display4{
+        margin-right: 8vw;
+    }
+    .display5{
+        margin-right: 2vw;
+    }
+    .donate{
+        margin-right: 8vw;
+    }
+}
